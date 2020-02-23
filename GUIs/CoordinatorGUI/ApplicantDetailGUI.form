@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIs.CoordinatorGUI.ApplicantDetailGUI">
+  <grid id="27dc6" binding="ApplicantDetailWindow" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e4f0e" class="javax.swing.JLabel" binding="applicantUserName">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Applicant Username Here"/>
+        </properties>
+      </component>
+      <component id="85c45" class="javax.swing.JLabel" binding="applicantPhoneNumber">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Applicant Phone Number Here"/>
+        </properties>
+      </component>
+      <component id="59ad0" class="javax.swing.JButton" binding="returnToViewApplicantsButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Return to View All Applicants for This Job Posting"/>
+        </properties>
+      </component>
+      <component id="1a498" class="javax.swing.JButton" binding="viewApplicationButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="View Application"/>
+        </properties>
+      </component>
+      <component id="38ae0" class="javax.swing.JLabel" binding="jobPostingTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Job Posting Title Here"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
